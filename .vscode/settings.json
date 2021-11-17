@@ -1,6 +1,9 @@
 {
-    "editor.tabSize": 2,
-    "editor.fontSize": 16,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "cSpell.enabled": false
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.enabled": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
 }
