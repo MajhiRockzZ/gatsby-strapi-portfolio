@@ -6,13 +6,17 @@ import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Seo from "../components/Seo"
 const IndexPage = ({ data }) => {
-  console.log(data)
+  const {
+    allStrapiProject: { nodes: projects },
+  } = data
+
   return (
     <>
       <main>
         <Hero />
         <Services />
         <Jobs />
+        <Projects title="featured projects" showLink projects={projects} />
       </main>
     </>
   )
